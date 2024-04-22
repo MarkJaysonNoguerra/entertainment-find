@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.poster {
+  width: 5%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  min-width: 80px;
+  max-height: 100px;
+}
+
+.search {
+  display: flex;
+  gap: 1rem;
+
+  .div {
+    justify-self: end;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
